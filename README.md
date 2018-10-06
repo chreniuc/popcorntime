@@ -17,6 +17,8 @@ sed -i 's/\r//' popcorntime.sh
 
 chmod +x popcorntime.sh
 
+xhost local:root # Allow xforwarding
+
 ./popcorntime.sh
 
 ```
